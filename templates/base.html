@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleable=no">
+  <link rel="stylesheet" type="text/css" href={{ url_for('static', path='css/main.css')}}>
+  <title> Ivan Nikolaev </title>
+</head>
+
+<body>
+    <div class="main-flex">
+  {% block content %}
+  {% endblock %} 
+</div> 
+</body>
+
+</html>
